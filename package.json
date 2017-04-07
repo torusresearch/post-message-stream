@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "readable-stream": "^2.1.4"
+    "readable-stream": "^2.2.8"
   },
   "devDependencies": {},
   "repository": {
