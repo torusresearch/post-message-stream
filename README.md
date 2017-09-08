@@ -1,5 +1,7 @@
 # post-message-stream
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kumavis/post-message-stream.svg)](https://greenkeeper.io/)
+
 Sets up a duplex object stream over window.postMessage
 
 ```js
