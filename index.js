@@ -51,7 +51,7 @@ PostMessageStream.prototype._onMessage = function (event) {
   } else {
     // forward message
     try {
-      this.push(msg.data)
+      this.push({ ...msg.data, _messageOrigin: event.source})
     } catch (err) {
       this.emit('error', err)
     }
